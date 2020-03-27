@@ -2,6 +2,11 @@
     display: flex;
     justify-content: flex-end;
 }
+body{
+    background-color: rgb(236, 238, 241);
+    font-family: "Avenir", Roboto, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-weight: normal;
+}
 
 .btn {
     display: flex;
@@ -30,3 +35,521 @@
     /* justify-content: center; */
     display: inline-block;
 }
+
+.institut-logo{
+    text-align: center;
+}
+main{
+    text-align: center;
+    background-color: #fff;
+    width:35%;
+    margin-left: 35%;
+}
+
+.label {
+    text-align: left;
+    display: block;
+    font-weight: 700;
+    color: #404040;
+    font-size: 14px;
+    line-height: 25px;
+    padding-bottom: 6px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  .input-set {
+    text-align: left;
+    border: 0;
+    position: relative;
+  }
+  
+  .recommended-text {
+    font-weight: normal;
+  }
+  
+  .form-note {
+    font-family: inherit;
+    font-weight: 700;
+    display: block;
+    min-height: 20px;
+    padding: 5px 0;
+    font-size: 10px;
+    color: #444;
+    margin-left: 15px;
+  }
+  
+  .input-field {
+    display: block;
+    position: relative;
+    height: 30px;
+    width: 305px;
+    min-width: 160px;
+    padding-left: 8px;
+    padding-right: 6px;
+    border: 1px solid #d8d8d8;
+    color: #000;
+    outline: none;
+    font-size: 1.2em;
+    border-radius: 3px;
+    line-height: 1.3em;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  
+  .password-lock {
+    background: url(./img/unlocked.png) no-repeat 0% 50% / 21px 21px;
+    width: 33px;
+    height: 32px;
+    display: block;
+    position: absolute;
+    right: 24px;
+    top: 39px;
+    bottom: 1px;
+  }
+  
+  .create-account {
+    background: #0077c5;
+    border-radius: 4px;
+    border: 1px solid #4c4c4c;
+    color: white;
+    cursor: pointer;
+    font-weight: normal;
+    width: 320px;
+    height: 44px;
+    font-size: 16px;
+    margin: 20px 20px 0 20px;
+    position: relative;
+  }
+  
+  .create-account span {
+    background: url(./img/lock2.png) no-repeat 0% 50% /13px 16px;
+    position: absolute;
+    right: 214px;
+    top: 9px;
+    bottom: 1px;
+    width: 20px;
+    height: 21px;
+  }
+
+  
+.img-locked {
+    height: 0.9em;
+    width: 0.8em;
+    margin-top: 0;
+    margin-right: 5px;
+    vertical-align: text-top;
+    display: inline-block;
+    background-image: url(../media/locked.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .logo-container,
+  .sub-logo-container {
+    list-style: none;
+    list-style-image: none;
+  }
+  
+  .logo {
+    width: 118px;
+    height: 35px;
+    display: block;
+    background-position: 0 0;
+    background-image: url("../media/logos.png");
+    text-decoration: none;
+  }
+  
+  .sub-logo-list {
+    padding-left: 0;
+  }
+  
+  footer ul li {
+    display: inline;
+    padding: 0 10px 0 10px;
+  }
+  
+  ul.sub-logo-list li {
+    display: inline-block;
+  }
+  
+  .logo1-1 {
+    width: 23px;
+    height: 23px;
+    display: block;
+    background-position: -254px 26px;
+    background-image: url("../media/logos.png");
+    text-decoration: none;
+  }
+  
+  .logo1-2 {
+    width: 40px;
+    height: 22px;
+    display: block;
+    background-position: 282px 26px;
+    background-image: url("../media/logos.png");
+    text-decoration: none;
+  }
+  
+  .logo2-1 {
+    width: 23px;
+    height: 23px;
+    display: block;
+    background-position: -115px 26px;
+    background-image: url("../media/logos.png");
+    text-decoration: none;
+  }
+  
+  .logo2-2 {
+    width: 100px;
+    height: 22px;
+    display: block;
+    background-position: -142px 26px;
+    background-image: url("../media/logos.png");
+    text-decoration: none;
+  }
+  
+  .logo3-1 {
+    width: 23px;
+    height: 23px;
+    display: block;
+    background-position: 0 26px;
+    background-image: url("../media/logos.png");
+    text-decoration: none;
+  }
+  
+  .logo3-2 {
+    width: 76px;
+    height: 23px;
+    display: block;
+    background-position: -25px 26px;
+    background-image: url("../media/logos.png");
+    text-decoration: none;
+  }
+  
+  section.main-form-box {
+    margin-top: -4px;
+  }
+  
+  .form-content {
+    width: 380px;
+    background-color: #fff;
+    margin: auto;
+    text-align: center;
+    border: 1px solid #cacaca;
+  }
+  
+  a.learn-more {
+    color: #0077c5;
+    font-size: 12px;
+    text-decoration: none;
+  }
+  
+  .label {
+    text-align: left;
+    display: block;
+    font-weight: 700;
+    color: #404040;
+    font-size: 14px;
+    line-height: 25px;
+    padding-bottom: 6px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  .input-set {
+    text-align: left;
+    border: 0;
+    position: relative;
+  }
+  
+  .recommended-text {
+    font-weight: normal;
+  }
+  
+  .form-note {
+    font-family: inherit;
+    font-weight: 700;
+    display: block;
+    min-height: 20px;
+    padding: 5px 0;
+    font-size: 10px;
+    color: #444;
+    margin-left: 15px;
+  }
+  
+  .input-field {
+    display: block;
+    position: relative;
+    height: 30px;
+    width: 305px;
+    min-width: 160px;
+    padding-left: 8px;
+    padding-right: 6px;
+    border: 1px solid #d8d8d8;
+    color: #000;
+    outline: none;
+    font-size: 1.2em;
+    border-radius: 3px;
+    line-height: 1.3em;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  
+  .password-lock {
+    background: url(../media/unlocked.png) no-repeat 0% 50% / 21px 21px;
+    width: 33px;
+    height: 32px;
+    display: block;
+    position: absolute;
+    right: 24px;
+    top: 39px;
+    bottom: 1px;
+  }
+  
+  .create-account {
+    background: #0077c5;
+    border-radius: 4px;
+    border: 1px solid #4c4c4c;
+    color: white;
+    cursor: pointer;
+    font-weight: normal;
+    width: 320px;
+    height: 44px;
+    font-size: 16px;
+    margin: 20px 20px 0 20px;
+    position: relative;
+  }
+  
+  .create-account span {
+    background: url(../media/locked.png) no-repeat 0% 50% /13px 16px;
+    position: absolute;
+    right: 214px;
+    top: 9px;
+    bottom: 1px;
+    width: 20px;
+    height: 21px;
+  }
+  
+  button#PrivacyBtn {
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #6b6c72;
+    border-radius: 3px;
+    z-index: 100;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0;
+    right: 5%;
+    vertical-align: middle;
+    color: #fff;
+    padding: 12px 14px;
+    border: 0;
+  }
+  
+  .modal-header {
+    margin: 10px;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #393a3d;
+  }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    padding-left: 11%;
+    width: 80%;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 30px 35px;
+    width: 750px;
+    border: none;
+    border-radius: 10px;
+    font-family: inherit;
+    z-index: 99999;
+    box-shadow: 0 0 20px #babec5;
+    box-sizing: border-box;
+  }
+  
+  .modal-sub-header {
+    color: #393a3d;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+  
+  hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 0;
+    border-top: 2px solid #d4d7dc;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .form-info {
+    display: block;
+    margin: 30px auto 30px auto;
+    font-size: 12px;
+    font-style: italic;
+    color: #646464;
+    line-height: 1.5rem;
+  }
+  
+  .form-footer {
+    text-align: center;
+    font-size: 10px;
+    color: #8d9096;
+    background-color: #eceef1;
+    padding: 20px 5px 20px 5px;
+  }
+  
+  footer {
+    text-align: center;
+    color: #303030;
+    font-size: 13px;
+    padding: 20px 5px 20px 5px;
+  }
+  
+  footer a {
+    text-decoration: none;
+  }
+  
+  .form-info a {
+    text-decoration: none;
+    color: #0077c5;
+  }
+  
+  .form-footer a {
+    text-decoration: none;
+    color: #0077c5;
+  }
+  
+  .footer-ul {
+    display: block;
+    padding: 0;
+  }
+  
+  .footer-copyright {
+    margin-top: 3px;
+  }
+  
+  .save-button {
+    box-shadow: none;
+    display: block;
+    border-radius: 4px;
+    border-width: 1px;
+    color: #fff;
+    background-color: #0077c5;
+    position: relative;
+    width: 120px;
+    height: 36px;
+    font-size: 1rem;
+  }
+  
+  .dismiss-button {
+    box-shadow: none;
+    display: block;
+    border-radius: 4px;
+    border-width: 1px;
+    color: #0077c5;
+    background-color: #eee;
+    position: relative;
+    width: 120px;
+    height: 32px;
+    font-size: 1rem;
+  }
+  
+  .third-party {
+    color: #bababa;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .modal-all-description {
+    padding-left: 28px;
+  }
+  
+  .modal-description {
+    margin: 0 10px 30px 38px;
+    font-size: 14px;
+    max-width: 600px;
+    color: #393a3d;
+    line-height: 1.5;
+    text-align: left;
+  }
+  
+  .modal-checkbox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 0;
+    cursor: pointer;
+    font-size: 22px;
+    user-select: none;
+  }
+  
+  .modal-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    height: 16px;
+    width: 16px;
+    background-color: #fff;
+    border: 1px solid #4f9f418c;
+    border-radius: 3px;
+  }
+  
+  .modal-checkbox input:checked ~ .checkmark {
+    background-color: #fff;
+  }
+  
+  .checkmark::after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .modal-checkbox .checkmark::after {
+    left: 4px;
+    top: 1px;
+    width: 3px;
+    height: 9px;
+    border: solid #43a047bf;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+  
+  .modal-checkbox input:checked ~ .checkmark::after {
+    display: block;
+  }
