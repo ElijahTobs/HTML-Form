@@ -1,0 +1,32 @@
+.head {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 7.3em;
+    height: 3em;
+    /* padding: 9px; */
+    border-radius: 0.4em;
+    background: #3199CE;
+    color: #fff;
+    margin-left: 5px;
+
+}
+
+.btn p {
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+
+.lock {
+    width: 18px;
+    height: 18px;
+    /* margin-top: 8px; */
+    align-self: center;
+    /* justify-content: center; */
+    display: inline-block;
+}
