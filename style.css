@@ -1,12 +1,25 @@
-.head {
-    display: flex;
-    justify-content: flex-end;
-}
 body{
     background-color: rgb(236, 238, 241);
     font-family: "Avenir", Roboto, Helvetica, Arial, Verdana, Tahoma, sans-serif;
     font-weight: normal;
+    margin: 0;
+    padding: 0;
 }
+
+.head {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+}
+
+.head h3 {
+  font-size: .8rem;
+}
+
+.head a {
+  text-decoration: none;
+}
+
 h1 {
     color: #4c4c4c;
     font-weight: 700;
@@ -40,42 +53,54 @@ h1 {
 }
 
 .lock {
-    width: 18px;
-    height: 18px;
+    width: 1.2em;
+    height: 1.2em;
+    margin-right: .4em;
     /* margin-top: 8px; */
-    align-self: center;
+    /* align-self: center; */
     /* justify-content: center; */
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 .institut-logo{
+    margin: 0 auto;
     text-align: center;
 }
 main{
     text-align: center;
     background-color: #fff;
-    width:35%;
-    margin-left: 35%;
+    width:30%;
+    margin: 0 auto;
+    /* margin-left: 35%; */
     border: solid 1px rgb(165, 162, 162);
 }
 
+fieldset{
+  text-align: center;
+  /* margin: 0 auto; */
+  /* margin: 5px 0; */
+}
+
 .label {
-    text-align: left;
-    display: block;
-    font-weight: 700;
+    /* text-align: left;
+    display: block; */
+    font-weight: 400;
     color: #404040;
     font-size: 14px;
-    line-height: 25px;
+    /* line-height: 25px; */
     padding-bottom: 6px;
-    margin-left: 15px;
-    margin-right: 15px;
+    /* margin-left: 15px;
+    margin-right: 15px; */
   }
   
   .input-set {
-      margin-left: 40px;
+    margin: 0 auto;
+    margin-top: 1.2rem;
+    width: 85%;
     text-align: left;
-    border: 0;
-    position: relative;
+    border: none;
+    /* border: 0; */
+    /* position: relative; */
   }
   
   .recommended-text {
@@ -84,31 +109,33 @@ main{
   
   .note {
     font-family: inherit;
-    font-weight: 700;
+    font-weight: 400;
     display: block;
     min-height: 20px;
-    padding: 5px 0;
+    /* padding: 5px 0; */
     font-size: 10px;
     color: #444;
-    margin-left: 15px;
+    /* width: 100%; */
+    /* margin: 0 auto; */
+    /* margin-left: 15px; */
   }
   
   .input-field {
-    display: block;
-    position: relative;
+    /* display: block;
+    position: relative; */
     height: 30px;
-    width: 305px;
-    min-width: 160px;
-    padding-left: 8px;
-    padding-right: 6px;
+    /* width: 305px; */
+    /* min-width: 160px; */
+    /* padding-left: 8px;
+    padding-right: 6px; */
     border: 1px solid #d8d8d8;
-    color: #000;
+    /* color: #000; */
     outline: none;
     font-size: 1.2em;
     border-radius: 3px;
     line-height: 1.3em;
-    margin-right: 15px;
-    margin-left: 15px;
+    /* margin-right: 15px;
+    margin-left: 15px; */
   }
   
   .password-unlock {
@@ -123,16 +150,21 @@ main{
   }
   
   .create-account {
+    display: flex;
+    justify-content: center;
     background: #3199CE;
     border-radius: 4px;
-    border: 1px solid #4c4c4c;
+    border: none;
+    /* border: 1px solid #4c4c4c; */
     color: white;
     cursor: pointer;
     font-weight: normal;
-    width: 320px;
+    width: 85%;
     height: 44px;
     font-size: 16px;
-    margin: 20px 20px 0 20px;
+    margin: 0 auto;
+    margin-top: 1rem;
+    /* margin: 20px 20px 0 20px; */
     position: relative;
   }
   
@@ -151,28 +183,38 @@ main{
     padding: 0 10px 0 10px;
   }
   
-  .input-set {
+  /* .input-set {
+  
     text-align: left;
     border: 0;
+    border: olive 2px solid;
+    margin: 0 auto;
     position: relative;
-  }
+  } */
   
+.signup-form{
+  margin: 0 auto;
+  width: 100%;
+}
+
   .input-field {
     display: block;
     position: relative;
     height: 30px;
-    width: 305px;
-    min-width: 160px;
-    padding-left: 8px;
-    padding-right: 6px;
-    border: 1px solid #d8d8d8;
-    color: #000;
+    /* width: 305px; */
+    width:100%;
+    /* min-width: 160px; */
+    /* padding-left: 8px;
+    padding-right: 6px; */
+    /* border: 1px solid #d8d8d8; */
+    /* border: orangered 2px solid; */
+    /* color: #000; */
     outline: none;
     font-size: 1.2em;
     border-radius: 3px;
     line-height: 1.3em;
-    margin-right: 15px;
-    margin-left: 15px;
+    /* margin-right: 15px;
+    margin-left: 15px; */
   }
  
   .form-bottom {
@@ -182,6 +224,11 @@ main{
 
   }
   
+.form-bottom a {
+  text-decoration: none;
+  color: #52A4DF;
+}
+
   .form-info {
     display: block;
     margin: 30px auto 30px auto;
@@ -203,7 +250,9 @@ main{
     text-align: center;
     color: #303030;
     font-size: 13px;
-    padding: 20px 5px 20px 5px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    /* padding: 20px 0px 20px 5px; */
   }
   
   footer a {
@@ -220,7 +269,30 @@ main{
     padding: 0;
   }
   
+.footer-ul a {
+  color: #000;
+}
+
   .footer-copyright {
     margin-top: 3px;
   }
   
+.btn-sticky {
+  display: flex;
+  position: sticky;
+  justify-content: flex-end;
+  margin-right: 3em;
+}
+
+.btn-sticky button {
+  position: fixed;
+  bottom: 0;
+  overflow: hidden;
+  height: 3em;
+  padding: 10px 12px;
+  /* margin-bottom: .em; */
+  background: #6B6C72;
+  color: #fff;
+  border: none;
+  border-radius: .2em;
+}
