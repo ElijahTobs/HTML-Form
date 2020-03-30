@@ -43,7 +43,6 @@ h1 {
     background: #3199CE;
     color: #fff;
     margin-left: 5px;
-
 }
 
 .btn p {
@@ -87,7 +86,6 @@ fieldset{
     width: 85%;
     text-align: left;
     border: none;
-  
   }
   
   .recommended-text {
@@ -99,23 +97,17 @@ fieldset{
     font-weight: 400;
     display: block;
     min-height: 20px;
-   
     font-size: 10px;
     color: #444;
-   
   }
   
   .input-field {
-  
     height: 30px;
-   
     border: 1px solid #d8d8d8;
-   
     outline: none;
     font-size: 1.2em;
     border-radius: 3px;
     line-height: 1.3em;
-    
   }
   
   .password-unlock {
@@ -134,7 +126,6 @@ fieldset{
     background: #3199CE;
     border-radius: 4px;
     border: none;
-  
     color: white;
     cursor: pointer;
     font-weight: normal;
@@ -143,12 +134,10 @@ fieldset{
     font-size: 16px;
     margin: 0 auto;
     margin-top: 1rem;
-    
     position: relative;
   }
   
   .create-account span {
-    
     position: absolute;
     right: 214px;
     top: 9px;
@@ -171,21 +160,18 @@ fieldset{
     display: block;
     position: relative;
     height: 30px;
-    
     width:100%;
    margin-top: 10px;
     outline: none;
     font-size: 1.2em;
     border-radius: 3px;
     line-height: 1.3em;
-  
   }
  
   .form-bottom {
       font-size: 12px;
       padding: 15px 0;
       background-color: rgb(236, 238, 241);
-
   }
   
 .form-bottom a {
@@ -216,7 +202,6 @@ fieldset{
     font-size: 13px;
     margin-top: 2em;
     margin-bottom: 2em;
-    
   }
   
   footer a {
@@ -254,7 +239,6 @@ fieldset{
   overflow: hidden;
   height: 3em;
   padding: 10px 12px;
-
   background: #6B6C72;
   color: #fff;
   border: none;
