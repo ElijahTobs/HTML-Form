@@ -1,231 +1,232 @@
-body{
-    background-color: rgb(236, 238, 241);
-    font-family: "Avenir", Roboto, Helvetica, Arial, Verdana, Tahoma, sans-serif;
-    font-weight: normal;
-    margin: 0;
-    padding: 0;
+body {
+  background-color: rgb(236, 238, 241);
+  font-family: "Avenir", Roboto, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
 }
 
 .head {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2rem;
+}
+
+h3 {
+  color: #4c4c4c;
+  font-weight: normal;
+  font-size: 14px;
 }
 
 .head h3 {
-  font-size: .8rem;
+  font-size: 0.8rem;
+}
+
+h1 {
+  color: #4c4c4c;
+  font-weight: 700;
+  line-height: 1.1;
+  font-size: 24px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 7.3em;
+  height: 3em;
+  border-radius: 0.4em;
+  background: #3199ce;
+  color: #fff;
+  margin-left: 5px;
+}
+
+.btn p {
+  align-self: flex-end;
+  justify-self: flex-end;
+}
+
+.lock {
+  width: 1.2em;
+  height: 1.2em;
+  margin-right: 0.4em;
+}
+
+.institut-logo {
+  margin: 0 auto;
+  text-align: center;
+}
+
+main {
+  text-align: center;
+  background-color: #fff;
+  width: 30%;
+  margin: 0 auto;
+  border: solid 1px rgb(165, 162, 162);
+}
+
+fieldset {
+  text-align: center;
+}
+
+.label {
+  font-weight: 400;
+  color: #404040;
+  font-size: 14px;
+  padding-bottom: 6px;
+}
+
+.input-set {
+  margin: 0 auto;
+  margin-top: 1.2rem;
+  width: 85%;
+  text-align: left;
+  border: none;
+}
+
+.recommended-text {
+  font-weight: normal;
+}
+
+.note {
+  font-family: inherit;
+  font-weight: 400;
+  display: block;
+  min-height: 20px;
+  font-size: 10px;
+  color: #444;
+}
+
+.input-field {
+  height: 30px;
+  border: 1px solid #d8d8d8;
+  outline: none;
+  font-size: 1.2em;
+  border-radius: 3px;
+  line-height: 1.3em;
+}
+
+.password-unlock {
+  width: 33px;
+  height: 32px;
+  display: block;
+  position: absolute;
+  right: 24px;
+  top: 39px;
+  bottom: 1px;
+}
+
+.create-account {
+  display: flex;
+  justify-content: center;
+  background: #3199ce;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: normal;
+  width: 85%;
+  height: 44px;
+  font-size: 16px;
+  margin: 0 auto;
+  margin-top: 1rem;
+  position: relative;
+}
+
+.create-account span {
+  position: absolute;
+  right: 214px;
+  top: 9px;
+  bottom: 1px;
+  width: 20px;
+  height: 21px;
+}
+
+footer ul li {
+  display: inline;
+  padding: 0 10px 0 10px;
+}
+
+.signup-form {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.input-field {
+  display: block;
+  position: relative;
+  height: 30px;
+  width: 100%;
+  margin-top: 10px;
+  outline: none;
+  font-size: 1.2em;
+  border-radius: 3px;
+  line-height: 1.3em;
+  border: 1px solid #d8d8d8;
+}
+
+.form-bottom {
+  font-size: 12px;
+  padding: 15px 0;
+  background-color: rgb(236, 238, 241);
+}
+
+.form-info {
+  display: block;
+  margin: 30px auto 30px auto;
+  font-size: 12px;
+  font-style: italic;
+  color: #646464;
+  line-height: 1.5rem;
+}
+
+.form-footer {
+  text-align: center;
+  font-size: 10px;
+  color: #8d9096;
+  background-color: #eceef1;
+  padding: 20px 5px 20px 5px;
+}
+
+footer {
+  text-align: center;
+  color: #303030;
+  font-size: 13px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+footer a {
+  text-decoration: none;
 }
 
 .head a {
   text-decoration: none;
 }
 
-h1 {
-    color: #4c4c4c;
-    font-weight: 700;
-    line-height: 1.1;
-    font-size: 24px;
-  }
-   
-  h3 {
-    color: #4c4c4c;
-    font-weight: normal;
-    font-size: 14px;
-  }
-
-.btn {
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    width: 7.3em;
-    height: 3em;
-    border-radius: 0.4em;
-    background: #3199CE;
-    color: #fff;
-    margin-left: 5px;
-}
-
-.btn p {
-    align-self: flex-end;
-    justify-self: flex-end;
-}
-
-.lock {
-    width: 1.2em;
-    height: 1.2em;
-    margin-right: .4em;
-}
-
-.institut-logo{
-    margin: 0 auto;
-    text-align: center;
-}
-main{
-    text-align: center;
-    background-color: #fff;
-    width:30%;
-    margin: 0 auto;
-    border: solid 1px rgb(165, 162, 162);
-}
-
-fieldset{
-  text-align: center;
-}
-
-.label {
-    font-weight: 400;
-    color: #404040;
-    font-size: 14px;
-    padding-bottom: 6px;
-   
-  }
-  
-  .input-set {
-    margin: 0 auto;
-    margin-top: 1.2rem;
-    width: 85%;
-    text-align: left;
-    border: none;
-  }
-  
-  .recommended-text {
-    font-weight: normal;
-  }
-  
-  .note {
-    font-family: inherit;
-    font-weight: 400;
-    display: block;
-    min-height: 20px;
-    font-size: 10px;
-    color: #444;
-  }
-  
-  .input-field {
-    height: 30px;
-    border: 1px solid #d8d8d8;
-    outline: none;
-    font-size: 1.2em;
-    border-radius: 3px;
-    line-height: 1.3em;
-  }
-  
-  .password-unlock {
-    width: 33px;
-    height: 32px;
-    display: block;
-    position: absolute;
-    right: 24px;
-    top: 39px;
-    bottom: 1px;
-  }
-  
-  .create-account {
-    display: flex;
-    justify-content: center;
-    background: #3199CE;
-    border-radius: 4px;
-    border: none;
-    color: white;
-    cursor: pointer;
-    font-weight: normal;
-    width: 85%;
-    height: 44px;
-    font-size: 16px;
-    margin: 0 auto;
-    margin-top: 1rem;
-    position: relative;
-  }
-  
-  .create-account span {
-    position: absolute;
-    right: 214px;
-    top: 9px;
-    bottom: 1px;
-    width: 20px;
-    height: 21px;
-  }
-
-  footer ul li {
-    display: inline;
-    padding: 0 10px 0 10px;
-  }
-  
-.signup-form{
-  margin: 0 auto;
-  width: 100%;
-}
-
-  .input-field {
-    display: block;
-    position: relative;
-    height: 30px;
-    width:100%;
-   margin-top: 10px;
-    outline: none;
-    font-size: 1.2em;
-    border-radius: 3px;
-    line-height: 1.3em;
-  }
- 
-  .form-bottom {
-      font-size: 12px;
-      padding: 15px 0;
-      background-color: rgb(236, 238, 241);
-  }
-  
 .form-bottom a {
   text-decoration: none;
-  color: #52A4DF;
+  color: #52a4df;
 }
 
-  .form-info {
-    display: block;
-    margin: 30px auto 30px auto;
-    font-size: 12px;
-    font-style: italic;
-    color: #646464;
-    line-height: 1.5rem;
-  }
-  
-  .form-footer {
-    text-align: center;
-    font-size: 10px;
-    color: #8d9096;
-    background-color: #eceef1;
-    padding: 20px 5px 20px 5px;
-  }
-  
-  footer {
-    text-align: center;
-    color: #303030;
-    font-size: 13px;
-    margin-top: 2em;
-    margin-bottom: 2em;
-  }
-  
-  footer a {
-    text-decoration: none;
-  }
-  
-  .form-info a {
-    text-decoration: none;
-    color: #0077c5;
-  }
-  
-  .footer-ul {
-    display: block;
-    padding: 0;
-  }
-  
+.form-info a {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+.footer-ul {
+  display: block;
+  padding: 0;
+}
+
 .footer-ul a {
   color: #000;
 }
 
-  .footer-copyright {
-    margin-top: 3px;
-  }
-  
+.footer-copyright {
+  margin-top: 3px;
+}
+
 .btn-sticky {
   display: flex;
   position: sticky;
@@ -239,8 +240,8 @@ fieldset{
   overflow: hidden;
   height: 3em;
   padding: 10px 12px;
-  background: #6B6C72;
+  background: #6b6c72;
   color: #fff;
   border: none;
-  border-radius: .2em;
+  border-radius: 0.2em;
 }
