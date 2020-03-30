@@ -2,7 +2,7 @@
 
 > Microverse Project: A replica of the mint sign-up page
 
-![screenshot](./form_screenshot.png)
+![screenshot](./form-screenshot.png)
 
 
 ## Built With
@@ -22,7 +22,7 @@
 👤 **Elijah Ayandokun**
 
 - Github: [@ElijahTobs](https://github.com/ElijahTobs)
-- Twitter: [@tElijahgr8](https://twitter.com/Elijahgr8)
+- Twitter: [@Elijahgr8](https://twitter.com/Elijahgr8)
 - Linkedin: [linkedin](https://linkedin.com/in/ayandokunelijah)
 
 👤 **Author2**
