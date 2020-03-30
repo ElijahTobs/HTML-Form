@@ -97,15 +97,6 @@ fieldset {
   color: #444;
 }
 
-.input-field {
-  height: 30px;
-  border: 1px solid #d8d8d8;
-  outline: none;
-  font-size: 1.2em;
-  border-radius: 3px;
-  line-height: 1.3em;
-}
-
 .password-unlock {
   width: 33px;
   height: 32px;
@@ -198,6 +189,11 @@ footer {
 
 footer a {
   text-decoration: none;
+}
+
+header h3 a {
+  text-decoration: none;
+  color: #0077c5;
 }
 
 .head a {
