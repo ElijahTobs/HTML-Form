@@ -39,7 +39,6 @@ h1 {
     align-self: center;
     width: 7.3em;
     height: 3em;
-    /* padding: 9px; */
     border-radius: 0.4em;
     background: #3199CE;
     color: #fff;
@@ -56,10 +55,6 @@ h1 {
     width: 1.2em;
     height: 1.2em;
     margin-right: .4em;
-    /* margin-top: 8px; */
-    /* align-self: center; */
-    /* justify-content: center; */
-    /* display: inline-block; */
 }
 
 .institut-logo{
@@ -71,26 +66,19 @@ main{
     background-color: #fff;
     width:30%;
     margin: 0 auto;
-    /* margin-left: 35%; */
     border: solid 1px rgb(165, 162, 162);
 }
 
 fieldset{
   text-align: center;
-  /* margin: 0 auto; */
-  /* margin: 5px 0; */
 }
 
 .label {
-    /* text-align: left;
-    display: block; */
     font-weight: 400;
     color: #404040;
     font-size: 14px;
-    /* line-height: 25px; */
     padding-bottom: 6px;
-    /* margin-left: 15px;
-    margin-right: 15px; */
+   
   }
   
   .input-set {
@@ -99,8 +87,7 @@ fieldset{
     width: 85%;
     text-align: left;
     border: none;
-    /* border: 0; */
-    /* position: relative; */
+  
   }
   
   .recommended-text {
@@ -112,34 +99,26 @@ fieldset{
     font-weight: 400;
     display: block;
     min-height: 20px;
-    /* padding: 5px 0; */
+   
     font-size: 10px;
     color: #444;
-    /* width: 100%; */
-    /* margin: 0 auto; */
-    /* margin-left: 15px; */
+   
   }
   
   .input-field {
-    /* display: block;
-    position: relative; */
+  
     height: 30px;
-    /* width: 305px; */
-    /* min-width: 160px; */
-    /* padding-left: 8px;
-    padding-right: 6px; */
+   
     border: 1px solid #d8d8d8;
-    /* color: #000; */
+   
     outline: none;
     font-size: 1.2em;
     border-radius: 3px;
     line-height: 1.3em;
-    /* margin-right: 15px;
-    margin-left: 15px; */
+    
   }
   
   .password-unlock {
-    /* background: url(./img/unlocked.png) no-repeat 0% 50% / 21px 21px; */
     width: 33px;
     height: 32px;
     display: block;
@@ -155,7 +134,7 @@ fieldset{
     background: #3199CE;
     border-radius: 4px;
     border: none;
-    /* border: 1px solid #4c4c4c; */
+  
     color: white;
     cursor: pointer;
     font-weight: normal;
@@ -164,7 +143,7 @@ fieldset{
     font-size: 16px;
     margin: 0 auto;
     margin-top: 1rem;
-    /* margin: 20px 20px 0 20px; */
+    
     position: relative;
   }
   
@@ -183,15 +162,6 @@ fieldset{
     padding: 0 10px 0 10px;
   }
   
-  /* .input-set {
-  
-    text-align: left;
-    border: 0;
-    border: olive 2px solid;
-    margin: 0 auto;
-    position: relative;
-  } */
-  
 .signup-form{
   margin: 0 auto;
   width: 100%;
@@ -201,20 +171,14 @@ fieldset{
     display: block;
     position: relative;
     height: 30px;
-    /* width: 305px; */
+    
     width:100%;
-    /* min-width: 160px; */
-    /* padding-left: 8px;
-    padding-right: 6px; */
-    /* border: 1px solid #d8d8d8; */
-    /* border: orangered 2px solid; */
-    /* color: #000; */
+   margin-top: 10px;
     outline: none;
     font-size: 1.2em;
     border-radius: 3px;
     line-height: 1.3em;
-    /* margin-right: 15px;
-    margin-left: 15px; */
+  
   }
  
   .form-bottom {
@@ -252,7 +216,7 @@ fieldset{
     font-size: 13px;
     margin-top: 2em;
     margin-bottom: 2em;
-    /* padding: 20px 0px 20px 5px; */
+    
   }
   
   footer a {
@@ -290,7 +254,7 @@ fieldset{
   overflow: hidden;
   height: 3em;
   padding: 10px 12px;
-  /* margin-bottom: .em; */
+
   background: #6B6C72;
   color: #fff;
   border: none;
