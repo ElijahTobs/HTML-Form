@@ -1,57 +1,35 @@
-# Project Name
+# FORM CLONE
 
-> One paragraph statement about the project.
+> Microverse Project: A replica of the mint sign-up page
 
-![screenshot](./app_screenshot.png)
+![screenshot](./screenshot.png)
 
-Additional description about the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML,
+- CSS
+
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+[Live Demo Link](https://raw.githack.com/ElijahTobs/HTML-Form/form/index.html)
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Elijah Ayandokun**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@ElijahTobs](https://github.com/ElijahTobs)
+- Twitter: [@Elijahgr8](https://twitter.com/Elijahgr8)
+- Linkedin: [linkedin](https://linkedin.com/in/ayandokunelijah)
 
 👤 **Author2**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@tGodson](https://github.com/tGodson)
+- Twitter: [@tendongze-godson](https://twitter.com/tendongze-godson)
+- Linkedin: [linkedin](https://linkedin.com/in/tendongze95)
 
 ## 🤝 Contributing
 
