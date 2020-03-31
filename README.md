@@ -2,7 +2,7 @@
 
 > Microverse Project: A replica of the mint sign-up page
 
-![screenshot](./form-screenshot.png)
+![screenshot](./screenshot.png)
 
 
 ## Built With
